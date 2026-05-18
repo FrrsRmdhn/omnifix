@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNIFIX - Solusi Cepat & Profesional untuk HP dan Laptop Anda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brandBlue: '#0052FF',
+                        brandCyan: '#00F0FF',
+                        darkBg: '#0B0F19',
+                        darkCard: '#1E293B',
+                    },
+                    boxShadow: {
+                        neonGlow: '0 0 20px rgba(0, 240, 255, 0.2)',
+                        neonBlue: '0 0 20px rgba(0, 82, 255, 0.4)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glassmorphism {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .glass-nav {
+            background: rgba(11, 15, 25, 0.8);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #FFFFFF 0%, #00F0FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased selection:bg-brandCyan selection:text-darkBg overflow-x-hidden">
+
+    <a href="https://wa.me/6289685367762" target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300 flex items-center justify-center animate-bounce">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <img src="WhatsApp Image 2026-05-18 at 13.20.47.jpeg" alt="OmniFix Logo" class="h-10 w-auto rounded-md object-contain">
+                <span class="text-xl font-bold tracking-wider text-white hidden sm:block">Omni<span class="text-brandCyan">Fix</span></span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#home" class="hover:text-brandCyan transition-colors">Home</a>
+                <a href="#about" class="hover:text-brandCyan transition-colors">Tentang Kami</a>
+                <a href="#layanan" class="hover:text-brandCyan transition-colors">Layanan</a>
+                <a href="#why" class="hover:text-brandCyan transition-colors">Keunggulan</a>
+                <a href="#proses" class="hover:text-brandCyan transition-colors">Alur</a>
+                <a href="#galeri" class="hover:text-brandCyan transition-colors">Galeri</a>
+                <a href="#kontak" class="hover:text-brandCyan transition-colors">Kontak</a>
+            </div>
+            <div>
+                <a href="https://wa.me/6289685367762" class="bg-brandBlue hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 shadow-neonBlue hover:scale-105">
+                    Konsultasi Gratis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden flex items-center min-h-screen">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-brandBlue/20 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brandCyan/10 rounded-full blur-[120px] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center space-x-2 bg-brandBlue/10 border border-brandBlue/30 px-4 py-1.5 rounded-full text-xs font-semibold text-brandCyan tracking-wide uppercase">
+                    <span class="w-2 h-2 rounded-full bg-brandCyan animate-pulse"></span>
+                    <span>Premium Tech Repair Service</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
+                    Service HP & Laptop <br>
+                    <span class="text-gradient">Profesional, Cepat & Bergaransi</span>
+                </h1>
+                <p class="text-gray-400 text-lg max-w-xl mx-auto lg:mx-0 font-light leading-relaxed">
+                    OMNIFIX hadir memberikan solusi service elektronik terpercaya dengan teknisi berpengalaman dan proses cepat. Solusi Perbaikan Tanpa Batas.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                    <a href="https://wa.me/6289685367762" class="w-full sm:w-auto text-center bg-brandBlue hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold transition-all shadow-neonBlue hover:-translate-y-1">
+                        Konsultasi Sekarang
+                    </a>
+                    <a href="#layanan" class="w-full sm:w-auto text-center bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-xl font-semibold transition-all hover:-translate-y-1">
+                        Lihat Layanan
+                    </a>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5 relative flex justify-center">
+                <div class="relative w-full max-w-[450px] aspect-square rounded-3xl overflow-hidden glassmorphism p-3 shadow-neonGlow group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-60 z-10"></div>
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.18 (1).jpeg" alt="OmniFix Lab Repair" class="w-full h-full object-cover rounded-2xl group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute bottom-6 left-6 right-6 z-20 bg-darkBg/90 border border-white/10 rounded-xl p-3 flex items-center space-x-3 text-left">
+                        <div class="w-3 h-3 rounded-full bg-brandCyan animate-ping"></div>
+                        <span class="text-xs font-mono text-gray-300">Device Status: Hardware Repair Stage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="border-y border-white/5 bg-slate-900/40 py-12 relative z-20">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
+            <div class="space-y-1">
+                <h3 class="text-3xl md:text-4xl font-bold text-white">5000+</h3>
+                <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">Device Diperbaiki</p>
+            </div>
+            <div class="space-y-1">
+                <h3 class="text-3xl md:text-4xl font-bold text-brandCyan"><i class="fa-solid fa-user-check text-2xl mr-2"></i></h3>
+                <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">Teknisi Profesional</p>
+            </div>
+            <div class="space-y-1">
+                <h3 class="text-3xl md:text-4xl font-bold text-brandCyan"><i class="fa-solid fa-shield-halved text-2xl mr-2"></i></h3>
+                <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">Service Bergaransi</p>
+            </div>
+            <div class="space-y-1">
+                <h3 class="text-3xl md:text-4xl font-bold text-brandCyan"><i class="fa-solid fa-bolt text-2xl mr-2"></i></h3>
+                <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">Pengerjaan Cepat</p>
+            </div>
+            <div class="col-span-2 md:col-span-1 space-y-1">
+                <h3 class="text-3xl md:text-4xl font-bold text-brandCyan"><i class="fa-solid fa-microchip text-2xl mr-2"></i></h3>
+                <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">Sparepart Berkualitas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+            <div class="lg:col-span-5 order-2 lg:order-1">
+                <div class="relative glassmorphism p-4 rounded-3xl border border-white/10 overflow-hidden group">
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.18.jpeg" alt="OmniFix Clean Mainboard" class="w-full h-64 object-cover rounded-2xl mb-4">
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-3 bg-slate-900/60 rounded-xl border border-white/5 flex flex-col items-center justify-center text-center">
+                            <i class="fa-solid fa-screwdriver-wrench text-xl text-brandBlue mb-1"></i>
+                            <span class="text-[11px] text-gray-400">Alat Modern</span>
+                        </div>
+                        <div class="p-3 bg-slate-900/60 rounded-xl border border-white/5 flex flex-col items-center justify-center text-center">
+                            <i class="fa-solid fa-microchip text-xl text-brandCyan mb-1"></i>
+                            <span class="text-[11px] text-gray-400">Precision Hardware</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-7 order-1 lg:order-2 space-y-6">
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Premium Core Value</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Tentang OMNIFIX</h2>
+                <p class="text-gray-400 font-light leading-relaxed text-lg">
+                    OMNIFIX adalah layanan service elektronik spesialis HP dan laptop yang mengutamakan kualitas, kecepatan, dan kepuasan pelanggan. Dengan teknisi berpengalaman dan alat modern, kami siap menangani berbagai kerusakan perangkat Anda.
+                </p>
+                <div class="pt-2">
+                    <div class="flex items-center space-x-3 text-sm text-gray-300">
+                        <i class="fa-solid fa-check text-brandCyan"></i>
+                        <span>Transparansi Biaya & Diagnosa Akurat</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-sm text-gray-300 mt-2">
+                        <i class="fa-solid fa-check text-brandCyan"></i>
+                        <span>Pemberian Garansi Nyata di Setiap Perbaikan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-24 bg-slate-900/30 relative border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Our Expertise</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Layanan Service Kami</h2>
+                <p class="text-gray-400 font-light text-sm">Solusi perbaikan lengkap dan presisi untuk segala jenis kerusakan gadget Anda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Service HP Android</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Perbaikan hardware & software segala tipe Android (Samsung, Xiaomi, Oppo, dll).</p>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Service iPhone</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Penanganan IC, Bypass, ganti housing, dan ganti part khusus produk Apple dengan presisi.</p>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Service Laptop</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Service mati total, ganti keyboard, engsel, re-balling chip hingga perbaikan short sirkuit.</p>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-solid fa-border-top-left"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Ganti LCD</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Penggantian layar LCD pecah, bergaris, atau blank dengan sparepart grade tertinggi.</p>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Upgrade SSD & RAM</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Tingkatkan performa laptop lemot Anda hingga 10x lipat menjadi super responsif.</p>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 hover:border-brandCyan/40 hover:-translate-y-2 transition-all duration-300 group shadow-lg">
+                    <div class="w-12 h-12 rounded-xl bg-brandBlue/10 flex items-center justify-center border border-brandBlue/20 text-brandCyan text-xl group-hover:bg-brandBlue group-hover:text-white transition-all">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mt-6 mb-2">Cleaning & Maintenance</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Deep cleaning debu kipas internal + ganti thermal paste premium agar suhu adem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Why Choose Omnifix</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Komitmen Kami Untuk Kepuasan Perangkat Anda</h2>
+                    <p class="text-gray-400 font-light">Kami mengombinasikan keahlian teknis tingkat lanjut dengan transparansi layanan demi memberikan rasa aman bagi setiap pelanggan.</p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Teknisi Ahli & Berpengalaman</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Harga Transparan</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Garansi Service Nyata</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Sparepart Original</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Pengerjaan Cepat</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-brandCyan/20 flex items-center justify-center mt-1 text-brandCyan text-xs"><i class="fa-solid fa-check"></i></div>
+                            <span class="text-white font-medium text-sm">Customer Support Ramah</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-6 flex justify-center">
+                    <div class="w-full max-w-md bg-gradient-to-br from-brandBlue to-purple-900 p-8 rounded-3xl relative overflow-hidden shadow-neonBlue">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(0,240,255,0.3),transparent)]"></div>
+                        <h3 class="text-2xl font-bold text-white relative z-10">Butuh Perbaikan Kilat?</h3>
+                        <p class="text-blue-100 text-sm mt-2 relative z-10 font-light">Sebagian besar kendala ringan seperti ganti baterai, membersihkan kipas kotor, atau ganti LCD dapat ditunggu dan selesai hari itu juga.</p>
+                        <div class="mt-8 pt-6 border-t border-white/20 relative z-10 flex items-center justify-between">
+                            <span class="text-xs text-blue-200 font-mono">ESTIMATED TIME: ~30-60 MINS</span>
+                            <i class="fa-solid fa-bolt text-3xl text-brandCyan animate-pulse"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proses" class="py-24 bg-slate-900/30 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Step by Step</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Alur Kerja Profesional</h2>
+                <p class="text-gray-400 font-light text-sm">Proses terstruktur demi menjamin kualitas penanganan yang maksimal.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 relative">
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center mx-auto text-brandCyan font-bold text-lg group-hover:border-brandCyan group-hover:shadow-neonGlow transition-all">01</div>
+                    <h4 class="text-white font-semibold text-base">Konsultasi</h4>
+                    <p class="text-gray-400 text-xs font-light">Sampaikan keluhan secara online atau langsung ke lab.</p>
+                </div>
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center mx-auto text-brandCyan font-bold text-lg group-hover:border-brandCyan group-hover:shadow-neonGlow transition-all">02</div>
+                    <h4 class="text-white font-semibold text-base">Diagnosa</h4>
+                    <p class="text-gray-400 text-xs font-light">Teknisi membongkar & menganalisis masalah internal.</p>
+                </div>
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center mx-auto text-brandCyan font-bold text-lg group-hover:border-brandCyan group-hover:shadow-neonGlow transition-all">03</div>
+                    <h4 class="text-white font-semibold text-base">Estimasi</h4>
+                    <p class="text-gray-400 text-xs font-light">Persetujuan biaya transparan diawal tanpa sembunyi.</p>
+                </div>
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center mx-auto text-brandCyan font-bold text-lg group-hover:border-brandCyan group-hover:shadow-neonGlow transition-all">04</div>
+                    <h4 class="text-white font-semibold text-base">Perbaikan</h4>
+                    <p class="text-gray-400 text-xs font-light">Proses eksekusi servis micro-soldering atau ganti part.</p>
+                </div>
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center mx-auto text-brandCyan font-bold text-lg group-hover:border-brandCyan group-hover:shadow-neonGlow transition-all">05</div>
+                    <h4 class="text-white font-semibold text-base">Quality Check</h4>
+                    <p class="text-gray-400 text-xs font-light">Pengujian performa & fungsionalitas ketat pasca repair.</p>
+                </div>
+                <div class="text-center space-y-4 group">
+                    <div class="w-14 h-14 rounded-full bg-brandBlue text-white flex items-center justify-center mx-auto font-bold text-lg shadow-neonBlue">06</div>
+                    <h4 class="text-white font-semibold text-base">Selesai</h4>
+                    <p class="text-gray-400 text-xs font-light">Perangkat siap diambil lengkap dengan garansi resmi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Real Work Gallery</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Dokumentasi & Hasil Kerja Nyata</h2>
+                <p class="text-gray-400 font-light text-sm">Foto asli proses penanganan unit konsumen langsung dari meja kerja kami.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="relative overflow-hidden rounded-2xl aspect-square bg-slate-800 group border border-white/10">
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.17.jpeg" alt="Kondisi Laptop Kotor Overheat" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80 flex flex-col justify-end p-4">
+                        <span class="text-brandCyan font-mono text-[11px] font-bold">KONDISI AWAL</span>
+                        <p class="text-white text-xs font-medium mt-1">Laptop ASUS Berdebu Parah & Overheating</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-2xl aspect-square bg-slate-800 group border border-white/10">
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.18.jpeg" alt="Laptop Selesai Repair" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80 flex flex-col justify-end p-4">
+                        <span class="text-emerald-400 font-mono text-[11px] font-bold">QC PASSED</span>
+                        <p class="text-white text-xs font-medium mt-1">Selesai Deep Cleaning & Kipas Normal</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-2xl aspect-square bg-slate-800 group border border-white/10">
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.18 (1).jpeg" alt="Pembongkaran iPhone" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80 flex flex-col justify-end p-4">
+                        <span class="text-brandCyan font-mono text-[11px] font-bold">SMARTPHONE REPAIR</span>
+                        <p class="text-white text-xs font-medium mt-1">Proses Penggantian LCD & Baterai iPhone</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-2xl aspect-square bg-slate-800 group border border-white/10">
+                    <img src="WhatsApp Image 2026-05-18 at 13.00.19.jpeg" alt="Analisis Mainboard Presisi" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80 flex flex-col justify-end p-4">
+                        <span class="text-brandCyan font-mono text-[11px] font-bold">MICRO-SOLDERING</span>
+                        <p class="text-white text-xs font-medium mt-1">Pengecekan Jalur IC Power Mainboard ASUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-900/30 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan">Testimonials</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Apa Kata Mereka?</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <p class="text-gray-300 text-sm font-light italic leading-relaxed">
+                        "Laptop saya mati total karena panas berlebih, untung ditangani cepat di OMNIFIX. Sekarang suhunya adem banget."
+                    </p>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <h5 class="text-white text-sm font-semibold">Fahmi A</h5>
+                            <span class="text-[10px] text-gray-500">Asus User</span>
+                        </div>
+                        <div class="text-amber-400 text-xs flex space-x-0.5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <p class="text-gray-300 text-sm font-light italic leading-relaxed">
+                        "Bongkar iPhone di sini transparan banget, alatnya lengkap pakai matras antistatis profesional. Hasilnya rapi!"
+                    </p>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <h5 class="text-white text-sm font-semibold">Rahman N.</h5>
+                            <span class="text-[10px] text-gray-500">iPhone User</span>
+                        </div>
+                        <div class="text-amber-400 text-xs flex space-x-0.5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="glassmorphism p-8 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <p class="text-gray-300 text-sm font-light italic leading-relaxed">
+                        "Pengerjaan upgrade dan pembersihan motherboard sangat detail. Pelayanan helpdesk ramah dan informatif."
+                    </p>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <h5 class="text-white text-sm font-semibold">Siti S</h5>
+                            <span class="text-[10px] text-gray-500">Laptop Owner</span>
+                        </div>
+                        <div class="text-amber-400 text-xs flex space-x-0.5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-brandBlue to-purple-900 opacity-90"></div>
+        <div class="max-w-5xl mx-auto px-6 relative z-10 text-center space-y-6">
+            <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight">Perangkat Bermasalah? <br>Serahkan pada OMNIFIX.</h2>
+            <p class="text-blue-100 max-w-xl mx-auto font-light text-base">Hubungi kami sekarang untuk mendapatkan estimasi awal kerusakan tanpa dipungut biaya sepeser pun.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="https://wa.me/6289685367762" target="_blank" class="w-full sm:w-auto bg-white text-darkBg px-8 py-4 rounded-xl font-bold transition-all shadow-lg hover:scale-105 flex items-center justify-center space-x-2">
+                    <i class="fab fa-whatsapp text-lg text-emerald-500"></i>
+                    <span>WhatsApp Sekarang</span>
+                </a>
+                <a href="#kontak" class="w-full sm:w-auto bg-transparent border border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-xl font-semibold transition-all">
+                    Hubungi Kami
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-24 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">
+        <div class="lg:col-span-5 space-y-8">
+            <div>
+                <div class="text-xs font-bold uppercase tracking-widest text-brandCyan mb-2">Contact Info</div>
+                <h2 class="text-3xl font-bold text-white">Mari Terhubung</h2>
+                <p class="text-gray-400 font-light mt-2 text-sm">Kunjungi store offline kami atau hubungi helpdesk kami online.</p>
+            </div>
+            
+            <div class="space-y-4 text-sm text-gray-300">
+                <div class="flex items-start space-x-4">
+                    <i class="fa-solid fa-location-dot text-brandCyan text-lg mt-1"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">Alamat Bisnis</h4>
+                        <p class="text-gray-400 font-light mt-1">Jl. Sukalaya III No.8, Argasari, Kec. Cihideung, Kota Tasikmalaya, Jawa Barat 46122</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fa-solid fa-phone text-brandCyan text-lg mt-1"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">WhatsApp / Phone</h4>
+                        <p class="text-gray-400 font-light mt-1">+62 896-8536-7762</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fa-solid fa-clock text-brandCyan text-lg mt-1"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">Jam Operasional</h4>
+                        <p class="text-gray-400 font-light mt-1">Senin - Sabtu: 09.00 - 20.00 WIB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6">
+            <div class="glassmorphism p-8 rounded-2xl border border-white/5">
+                <form class="space-y-4" id="waForm" onsubmit="sendToWhatsApp(event)">
+                    <div>
+                        <input type="text" id="inputNama" required placeholder="Nama Lengkap" class="w-full bg-slate-900 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandCyan">
+                    </div>
+                    <div>
+                        <input type="text" id="inputPerangkat" required placeholder="Jenis Perangkat (Contoh: MacBook Pro / iPhone 11)" class="w-full bg-slate-900 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandCyan">
+                    </div>
+                    <div>
+                        <textarea id="inputKerusakan" required placeholder="Detail Kerusakan Perangkat" rows="4" class="w-full bg-slate-900 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandCyan"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-brandBlue hover:bg-blue-700 text-white py-3.5 rounded-xl font-semibold transition-all flex items-center justify-center space-x-2 shadow-neonBlue">
+                        <i class="fab fa-whatsapp text-lg"></i>
+                        <span>Kirim Pesan via WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+            
+<div class="w-full h-64 bg-slate-900 rounded-2xl border border-white/5 overflow-hidden relative">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2713745304194!2d108.2163351!3d-7.3233816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5713437293a9%3A0xc3c9f2b84eb43734!2sJl.%20Sukalaya%20III%20No.8%2C%20Argasari%2C%20Kec.%20Cihideung%2C%20Kab.%20Tasikmalaya%2C%20Jawa%20Barat%2046122!5e0!3m2!1sid!2sid!4v1716000000000!5m2!1sid!2sid" 
+        class="w-full h-full border-0 grayscale invert opacity-70 hover:opacity-100 transition-opacity duration-300" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+        </div>
+    </section>
+
+    <footer class="bg-[#070A10] border-t border-white/5 py-12 text-sm text-gray-500">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="space-y-4">
+                <div class="flex items-center space-x-2">
+                    <img src="WhatsApp Image 2026-05-18 at 13.20.47.jpeg" alt="OmniFix Logo" class="h-8 w-auto rounded object-contain">
+                    <span class="text-lg font-bold tracking-wider text-white">Omni<span class="text-brandCyan">Fix</span></span>
+                </div>
+                <p class="text-xs font-light text-gray-400">Solusi Cepat & Profesional untuk HP dan Laptop Anda.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-medium mb-3 text-xs uppercase tracking-wider">Navigasi</h4>
+                <ul class="space-y-2 text-xs font-light">
+                    <li><a href="#home" class="hover:text-brandCyan">Home</a></li>
+                    <li><a href="#about" class="hover:text-brandCyan">Tentang Kami</a></li>
+                    <li><a href="#layanan" class="hover:text-brandCyan">Layanan</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-medium mb-3 text-xs uppercase tracking-wider">Legalitas</h4>
+                <ul class="space-y-2 text-xs font-light">
+                    <li><a href="#" class="hover:text-brandCyan">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-brandCyan">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-brandCyan">Garansi Klaim</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-medium mb-3 text-xs uppercase tracking-wider">Social Media</h4>
+                <div class="flex space-x-4 text-lg text-gray-400">
+                    <a href="https://wa.me/6289685367762" class="hover:text-brandCyan"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-white/5 text-center text-xs font-light">
+            &copy; 2026 OMNIFIX. All Rights Reserved. Solusi Perbaikan Tanpa Batas.
+        </div>
+    </footer>
+
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault(); 
+            
+            const nama = document.getElementById('inputNama').value;
+            const perangkat = document.getElementById('inputPerangkat').value;
+            const kerusakan = document.getElementById('inputKerusakan').value;
+            
+            const nomorWA = "6289685367762"; 
+            
+            const teksPesan = `Halo *OMNIFIX*, saya ingin konsultasi kerusakan:%0A%0A` +
+                              `• *Nama:* ${encodeURIComponent(nama)}%0A` +
+                              `• *Perangkat:* ${encodeURIComponent(perangkat)}%0A` +
+                              `• *Detail Kerusakan:* ${encodeURIComponent(kerusakan)}%0A%0A` +
+                              `Mohon info estimasi biaya dan waktu pengerjaannya. Terima kasih!`;
+            
+            const urlWhatsApp = `https://api.whatsapp.com/send?phone=${nomorWA}&text=${teksPesan}`;
+            
+            window.open(urlWhatsApp, '_blank');
+        }
+    </script>
+
+</body>
+</html>
